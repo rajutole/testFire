@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="AltoroMutual.net.testfire.CheckAccountAvaliableBalanceTest">
+        <methods>
+          <include name="checkAvailableBalanceTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- AltoroMutual.net.testfire.CheckAccountAvaliableBalanceTest -->
+      <class name="AltoroMutual.net.testfire.ViewRecentTransactionsTest">
+        <methods>
+          <include name="recentTransactionsTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- AltoroMutual.net.testfire.ViewRecentTransactionsTest -->
+      <class name="AltoroMutual.net.testfire.TrasferFundsTest">
+        <methods>
+          <include name="FundtransferTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- AltoroMutual.net.testfire.TrasferFundsTest -->
+      <class name="AltoroMutual.net.testfire.ContactUsTest">
+        <methods>
+          <include name="setup"/>
+          <include name="contactUsTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- AltoroMutual.net.testfire.ContactUsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
